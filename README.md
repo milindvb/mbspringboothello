@@ -22,6 +22,29 @@ of base image.
 More image types available here :
 <https://hub.docker.com/_/microsoft-java-jdk>
 
+```xml
+<plugin>
+   <groupId>com.google.cloud.tools</groupId>
+   <artifactId>jib-maven-plugin</artifactId>
+   <configuration>
+   <from>
+	     <image>mcr.microsoft.com/java/jdk:8u202-zulu-centos</image>
+   </from>
+   <to>
+	     <image>registry.hub.docker.com/milindvb/mbjibimage:1.1</image>
+	  <auth>
+		   <username>yourDockerHubLogin</username>
+		   <password>yourDockerHubPassword</password>
+	  </auth>
+   </to>
+     <ports>
+         <port>80</port>
+     </ports>
+   </configuration>
+</plugin>
+
+```
+
 &lt;plugin&gt;
 
 &lt;groupId&gt;com.google.cloud.tools&lt;/groupId&gt;
