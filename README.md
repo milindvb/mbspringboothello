@@ -45,43 +45,6 @@ More image types available here :
 
 ```
 
-&lt;plugin&gt;
-
-&lt;groupId&gt;com.google.cloud.tools&lt;/groupId&gt;
-
-&lt;artifactId&gt;jib-maven-plugin&lt;/artifactId&gt;
-
-&lt;configuration&gt;
-
-&lt;from&gt;
-
-&lt;image&gt;mcr.microsoft.com/java/jdk:8u202-zulu-centos&lt;/image&gt;
-
-&lt;/from&gt;
-
-&lt;to&gt;
-
-&lt;image&gt;registry.hub.docker.com/milindvb/mbjibimage:1.1&lt;/image&gt;
-
-&lt;auth&gt;
-
-&lt;username&gt;yourDockerHubLogin&lt;/username&gt;
-
-&lt;password&gt;yourDockerHubPassword&lt;/password&gt;
-
-&lt;/auth&gt;
-
-&lt;/to&gt;
-
-&lt;ports&gt;
-
-&lt;port&gt;80&lt;/port&gt;
-
-&lt;/ports&gt;
-
-&lt;/configuration&gt;
-
-&lt;/plugin&gt;
 
 Build the docker image
 ======================
