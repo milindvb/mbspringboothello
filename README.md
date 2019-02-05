@@ -52,6 +52,7 @@ Build the docker image
 JIB will build and push the image to container registry of your choice.
 
 Command used: **mvn compile jib:build**
+```sh
 
 \$ mvn compile jib:build
 
@@ -146,6 +147,7 @@ mbjavajib ---
 
 \[INFO\]
 ------------------------------------------------------------------------
+```
 
 Create new Azure Webapp
 =======================
