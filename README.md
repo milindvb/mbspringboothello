@@ -1,5 +1,5 @@
-Deploy Java Spring Boot App to Azure Webapp for Containers using JIB (Java Image Builder)
-=========================================================================================
+Build Java spring boot container with JIB (java image builder) and deploy to Azure
+===================================================================================
 
 Create Spring Boot app
 ======================
