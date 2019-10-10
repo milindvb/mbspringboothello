@@ -121,8 +121,8 @@
    </appSettings>
 
    <!-- Web App information -->
-   <resourceGroup>mbpvtspringbootlinux2</resourceGroup>
-   <appName>mbpvtspringbootlinux2</appName>
+   <resourceGroup>myspringbootlinux2</resourceGroup>
+   <appName>myspringbootlinux2</appName>
    <region>centralus</region>
 
    <!-- Java Runtime Stack for Web App on Linux-->
